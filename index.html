@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CICI · Política de Privacidade</title>
+<meta name="description" content="Política de privacidade da CICI, assistente pessoal de uso exclusivo de Cinthia Matuda, e do aplicativo hermes-cinthia que ela usa para acessar o Google.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --fundo: #ffffff;
+    --texto: #1b1f24;
+    --suave: #4a535e;
+    --linha: #d5dbe1;
+    --destaque: #0b5c6b;
+    --faixa: #eef4f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #111417;
+      --texto: #e6eaee;
+      --suave: #a9b3bd;
+      --linha: #2c3339;
+      --destaque: #7cc7d4;
+      --faixa: #182024;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+    font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  .pagina {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 4rem;
+  }
+  header {
+    border-top: 6px solid var(--destaque);
+    padding-top: 1.75rem;
+    margin-bottom: 2.5rem;
+  }
+  .sobretitulo {
+    margin: 0 0 .5rem;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--destaque);
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(1.9rem, 6vw, 2.6rem);
+    line-height: 1.15;
+    font-weight: 700;
+  }
+  .resumo { margin: 0; color: var(--suave); font-size: 1.125rem; }
+  .atualizacao {
+    margin: 1.25rem 0 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: .9375rem;
+    color: var(--suave);
+  }
+  section {
+    padding: 1.75rem 0;
+    border-top: 1px solid var(--linha);
+  }
+  h2 {
+    margin: 0 0 .75rem;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+  p { margin: 0 0 1rem; }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: .5rem; }
+  strong { font-weight: 700; }
+  .aviso {
+    background: var(--faixa);
+    border-left: 4px solid var(--destaque);
+    padding: 1rem 1.25rem;
+    margin: 1rem 0 0;
+  }
+  a {
+    color: var(--destaque);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible {
+    outline: 3px solid var(--destaque);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--linha);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: .9375rem;
+    color: var(--suave);
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header>
+    <p class="sobretitulo">CICI · aplicativo hermes-cinthia</p>
+    <h1>Política de Privacidade</h1>
+    <p class="resumo">A CICI é a assistente pessoal de Cinthia Matuda. Esta página explica quais dados da conta Google ela acessa, para que, onde esses dados ficam e como revogar o acesso.</p>
+    <p class="atualizacao">Última atualização: <time datetime="2026-11-05">5 de novembro de 2026</time></p>
+  </header>
+
+  <main>
+    <section aria-labelledby="o-que-e">
+      <h2 id="o-que-e">O que é o aplicativo</h2>
+      <p>A CICI é uma assistente pessoal construída com o Hermes Agent. Ela conversa com a Cinthia pelo Telegram e com a equipe dela pelo WhatsApp. O aplicativo OAuth <strong>hermes-cinthia</strong> é o que permite à CICI acessar a conta Google da Cinthia.</p>
+      <p>O uso é <strong>exclusivo da Cinthia Matuda</strong>. O aplicativo não é oferecido ao público e nenhuma outra conta Google é conectada a ele.</p>
+    </section>
+
+    <section aria-labelledby="dados">
+      <h2 id="dados">Quais dados do Google são acessados e para quê</h2>
+      <p>Com a autorização da Cinthia, a CICI acessa a conta Google dela para executar as tarefas que ela pede:</p>
+      <ul>
+        <li><strong>Gmail</strong> (ler, enviar e modificar): ler e resumir e-mails, redigir e enviar respostas, organizar mensagens com marcadores e arquivamento.</li>
+        <li><strong>Google Agenda</strong>: consultar compromissos, criar e ajustar eventos.</li>
+        <li><strong>Google Drive</strong>: localizar, ler e salvar arquivos.</li>
+        <li><strong>Contatos</strong> (somente leitura): encontrar o contato certo ao enviar uma mensagem ou marcar um compromisso.</li>
+        <li><strong>Planilhas</strong> e <strong>Documentos</strong>: ler, criar e editar planilhas e documentos de trabalho.</li>
+      </ul>
+      <p>Os dados são usados apenas para atender aos pedidos da própria Cinthia. Não são usados para publicidade, perfil de consumo nem treinamento de modelos de IA pelo aplicativo.</p>
+    </section>
+
+    <section aria-labelledby="onde">
+      <h2 id="onde">Onde os dados ficam e quem os processa</h2>
+      <p>O token de acesso ao Google fica guardado no <strong>servidor privado da Cinthia</strong>, onde a CICI roda. Só ela administra esse servidor.</p>
+      <p>Para gerar as respostas, os pedidos e o conteúdo que a CICI processa em cada tarefa passam pelo <strong>provedor do modelo de IA</strong> que a Cinthia contratou. Esse provedor recebe o conteúdo somente para produzir a resposta daquele pedido.</p>
+    </section>
+
+    <section aria-labelledby="compartilhamento">
+      <h2 id="compartilhamento">Venda e compartilhamento</h2>
+      <p>Os dados <strong>não são vendidos</strong> e <strong>não são compartilhados</strong> com terceiros para nenhum outro fim além do processamento descrito acima.</p>
+      <p class="aviso">O uso e a transferência de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, incluindo os requisitos de Uso Limitado.</p>
+    </section>
+
+    <section aria-labelledby="revogar">
+      <h2 id="revogar">Como revogar o acesso</h2>
+      <p>O acesso pode ser revogado a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>: basta abrir o aplicativo hermes-cinthia na lista e remover o acesso. A partir daí, a CICI deixa de conseguir acessar a conta Google.</p>
+    </section>
+
+    <section aria-labelledby="contato">
+      <h2 id="contato">Contato</h2>
+      <p>Dúvidas sobre esta política podem ser enviadas pelo perfil <a href="https://github.com/matudacinthia-bot">github.com/matudacinthia-bot</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>CICI, assistente pessoal de Cinthia Matuda. Política atualizada em 5 de novembro de 2026.</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+*.local
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+*.key
+*.pem
+credentials.json
+.claude/settings.local.json
