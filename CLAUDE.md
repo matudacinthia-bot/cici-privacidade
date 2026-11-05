@@ -22,14 +22,17 @@ Página estática com a política de privacidade do app OAuth "hermes-cinthia", 
 **Status:** no ar
 
 ### Onde parei
-Página criada e publicada em https://matudacinthia-bot.github.io/cici-privacidade/.
+Página publicada em https://matudacinthia-bot.github.io/cici-privacidade/ e usada no Branding do Google Auth Platform. Com ela, a Cinthia passou o app hermes-cinthia de "Testando" para "Em produção" em 05/11, e o Google da CICI foi reautorizado e está funcionando.
 
 ### Próximos passos
-- [ ] Colar a URL nos campos "Página inicial do aplicativo" e "Link da Política de Privacidade" do Branding no Google Auth Platform (projeto hermes-cinthia)
-- [ ] Publicar o app (sair do modo "Testando")
+- [x] Colar a URL nos campos "Página inicial do aplicativo" e "Link da Política de Privacidade" do Branding no Google Auth Platform (projeto hermes-cinthia)
+- [x] Publicar o app (sair do modo "Testando")
+- Nada pendente. Mexer só se os escopos do app mudarem.
 
 ### Pendências e problemas conhecidos
 - Se os escopos do app mudarem, atualizar a lista de dados e a data da página.
+- A página diz que os dados não são usados para treinar IA "pelo aplicativo"; a política do provedor do modelo (Ollama Cloud) sobre treinamento não foi conferida.
+- Tirar a página do ar quebra a exigência do Google para o app em produção.
 
 ## Decisões importantes
 | Data | Decisão | Motivo |
@@ -43,4 +46,5 @@ Repositório público: nada de segredo, token ou dado do servidor aqui.
 ## Histórico de sessões
 <!-- SESSOES:INICIO -->
 - [2026-11-05] criação da página de privacidade e publicação no GitHub Pages
+- [2026-11-05 17:45] URL colada no Branding do Google e app hermes-cinthia publicado em produção; Google da CICI reautorizado
 <!-- SESSOES:FIM -->
